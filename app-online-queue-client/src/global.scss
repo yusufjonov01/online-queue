@@ -1,0 +1,255 @@
+// START ADMIN MENU STATIC SASS
+.katalog-sidebar {
+  background-color: #3b3b3b;
+  overflow-y: auto;
+  width: 18%;
+  z-index: 1;
+
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #F6F8FC;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+  .menuSidebar {
+    background-color: #3b3b3b;
+    height: 100%;
+    position: fixed;
+    width: 18%;
+    overflow-y: auto;
+
+    .userStatus {
+      margin-top: 0.9rem;
+      margin-bottom: 0.2rem;
+      font-family: Montserrat;
+
+      h6 {
+        font-size: 18px;
+        font-weight: 100;
+        position: relative;
+
+      }
+
+      h6::before {
+        position: absolute;
+        background-color: #40ff70;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        top: 5px;
+        left: -2px;
+        content: "";
+      }
+    }
+  }
+
+  .list-group-item {
+    padding: 0;
+    background-color: #3b3b3b;
+    border: 0;
+
+    .nav-link {
+      color: #fff;
+      width: 100%;
+      cursor: pointer;
+      border: none;
+      transition: 0.4s;
+      background-color: #3b3b3b;
+      border-radius: 0 !important;
+      padding: 10px;
+
+      &:hover {
+        transition: 0.4s;
+        padding-left: 18px;
+        background-color: #131313;
+        border-left: 3px solid #3383e1;
+      }
+
+      .list-group-item-icon {
+        vertical-align: -1px;
+      }
+
+    }
+
+    .active-katalog {
+      transition: 0.4s;
+      padding-left: 18px;
+      background-color: #131313;
+      border-left: 4px solid #3383e1;
+    }
+
+    .inUl {
+      padding-left: 30px;
+
+      &:hover {
+        padding-left: 40px;
+      }
+    }
+  }
+
+
+}
+
+.catalog {
+  display: flex;
+
+  .layout-children {
+    width: 80%;
+    padding-top: 20px;
+
+    .title {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .addBtn {
+      background-color: #3b3b3b;
+      color: #fff;
+      display: inline-block;
+      float: right;
+    }
+
+    .table {
+      tr {
+        th {
+          background-color: #3b3b3b;
+          color: #fff;
+          border: 0;
+        }
+
+        td {
+          .btn {
+            padding: 7px;
+            line-height: 100%;
+            text-align: center;
+            float: right;
+            margin-right: 5px;
+          }
+
+          .btn-edite {
+            background-color: #378FF6;
+            color: #fff;
+            border-color: #378FF6;
+          }
+        }
+      }
+    }
+  }
+}
+
+.admin-menu {
+  //background-color: #3383e1;
+  background-color: #3C8DBC;
+  color: white;
+
+  .admin-navbar {
+    background-color: #3C8DBC;
+  }
+}
+
+.login-page {
+  background-color: antiquewhite;
+
+  .login-row {
+    background-image: url("../public/assets/u0.png");
+    .col-md-4 {
+      width: auto;
+      border-radius: 7px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      background-color: snow;
+
+      .card-body {
+        margin: 30px;
+      }
+
+      .text-center {
+        margin-bottom: 20px;
+      }
+
+      .phone-number {
+        height: 45px;
+        margin-top: 40px;
+      }
+
+      .login-password {
+        height: 45px;
+        margin-top: 40px;
+      }
+
+      .login-button {
+        width: 25%;
+        height: 45px;
+        display: block;
+        margin: 35px auto;
+        color: #ffffff;
+        background-color: #3383e1;
+
+      }
+
+      .login-row2 {
+        margin: 30px 0;
+      }
+    }
+  }
+}
+
+// END ADMIN MENU STATIC SASS
+
+.profil-form{
+  .h{
+    color: black;
+    padding: 7px;
+    font-family: message-box;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    float: right;
+    margin-left: 100px;
+    //xamdam sobirov rano toshkentli qizzi sevaman
+  }
+  .prof{
+    background-color: #ffffff;
+    float: left;
+    margin-left:20%;
+    margin-top: 30px;
+    border: none;
+    .av{
+      border: 2px #3C8DBC solid;
+      border-radius: 5px;
+      width: 270px;
+    }
+    .but {
+      background-color: darkslategray;
+      padding: 10px;
+      border-radius: 7px;
+      line-height: 100%;
+      text-align: center;
+      float: right;
+      margin-right: 5px;
+    }
+  }
+}
+body{
+  background: {
+    image: url("../public/assets/photo_2020-03-13_14-32-38.jpg") !important;
+      position: center center;
+  };
+}
+
+
+.categorySearch{
+  margin-left: 500px;
+}
+.companyInfoStyle{
+  //text-align: center;
+  background-color:darkgrey;
+}
+
